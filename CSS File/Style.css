@@ -87,7 +87,7 @@ footer a {
     padding: 15px;
 }
 
-#Style {
+#Style p {
     text-align: center;
     color: black;
     width: 500px;
@@ -95,7 +95,7 @@ footer a {
     clear: both;
 }
 
-#Interactivity {
+#Interactivity p {
     text-align: center;
     color: black;
     width: 500px;
