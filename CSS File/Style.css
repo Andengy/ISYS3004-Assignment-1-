@@ -1,6 +1,5 @@
 /* Retrieved from earlier lab work, as a base design */
 
-
 body {
     width: 700px;
     margin: 0 auto;
@@ -22,6 +21,7 @@ nav {
     background-color: darkgrey;
     text-align: left;
     padding: 10px;
+    float: right; /* Float the navigation to the right */
 }
 
 nav a {
@@ -43,7 +43,6 @@ section {
     width: 500px;
     margin: 10px;
     padding: 15px;
-    border: 15px solid black;
 }
 
 section h2 {
