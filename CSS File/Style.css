@@ -22,7 +22,7 @@ header h1 {
 
 nav {
     position: fixed;
-    top: 50px;
+    top: 60px;
     left: 0;
     bottom: 0;
     background-color: olive;
@@ -40,8 +40,12 @@ nav ul {
 nav ul li {
     display: block;
     color: beige;
-    border: 1px colour black;
-    padding: 15px
+    padding: 15px;
+    border-bottom: 1px solid black; 
+}
+
+nav ul li:first-child {
+    border-top: 1px solid black; 
 }
 
 nav ul li a {
