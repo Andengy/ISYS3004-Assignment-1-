@@ -54,7 +54,7 @@ nav ul li a:hover {
 section {
     background-color: grey;
     width: calc(100% - 150px);
-    margin-left: 150px; /* Adjusted margin to create space for the fixed sidebar */
+    margin-left: 150px; 
     padding: 15px;
 }
 
