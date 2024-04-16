@@ -78,7 +78,7 @@ footer a {
     color: black;
     background-color: white;
     width: 500px;
-    border: 25px solid black; /* Added border style and color */
+    border: 25px solid black; 
 }
 
 #Structure p {
@@ -88,6 +88,14 @@ footer a {
 }
 
 #Style {
+    text-align: center;
+    color: black;
+    width: 500px;
+    padding: 15px;
+    clear: both;
+}
+
+#Interactivity {
     text-align: center;
     color: black;
     width: 500px;
