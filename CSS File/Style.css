@@ -43,7 +43,7 @@ nav ul li a:hover {
 }
 
 section {
-    background-color: white;
+    background-color: grey;
     width: calc(100% - 150px);
     margin: 10px auto;
     padding: 15px;
