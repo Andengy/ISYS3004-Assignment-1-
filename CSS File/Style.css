@@ -49,17 +49,13 @@ nav a:hover {
     width: 500px;
 }
 
-#extras {
-    background-color: lightgrey;
-    float: left;
-    width: 200px;
+#Interactivity {
+    background-color: white;
+    text-align: center;
+    float: right;
+    width: 500px;
 }
 
-#extras p {
-    font-size: 50%;
-    text-align: center;
-    line-height: normal;
-}
 
 footer {
     text-align: center;
@@ -78,7 +74,7 @@ footer a {
     color: black;
     background-color: white;
     width: 500px;
-    border: 25px solid black; 
+    border: 15px solid black; 
 }
 
 #Structure p {
