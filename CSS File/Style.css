@@ -13,7 +13,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1; 
+    z-index: 1;
 }
 
 header h1 {
@@ -26,8 +26,9 @@ nav {
     left: 0;
     bottom: 0;
     background-color: olive;
-    width: 150px; 
+    width: 150px;
     padding-top: 50px;
+}
 
 nav ul {
     list-style-type: none;
@@ -53,9 +54,8 @@ nav ul li a:hover {
 section {
     background-color: grey;
     width: calc(100% - 150px);
-    margin: 10px auto;
+    margin-left: 150px; /* Adjusted margin to create space for the fixed sidebar */
     padding: 15px;
-    float: left;
 }
 
 section h2 {
