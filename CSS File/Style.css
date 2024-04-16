@@ -9,11 +9,11 @@ header {
     color: white;
     padding: 10px 0;
     text-align: center;
+    border-bottom: 1px solid black;
 }
 
 header h1 {
     margin: 0;
-    
 }
 
 nav {
@@ -23,8 +23,9 @@ nav {
     bottom: 0;
     background-color: olive;
     width: 150px;
-    padding-top: 0px;
+    padding-top: 0.6px;
     z-index: 1;
+    border-right: 1px solid black; 
 }
 
 nav ul {
@@ -36,7 +37,7 @@ nav ul {
 nav ul li {
     display: block;
     background-color: beige;
-    border: 0.5px solid black; 
+    border-bottom: 1px solid black; 
     padding: 15px;
 }
 
