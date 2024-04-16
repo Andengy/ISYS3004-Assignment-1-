@@ -1,0 +1,108 @@
+<!-- Retrieved from earlier lab work, as a base design --
+
+body {width: 700px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {background-color: lightgrey;
+}
+
+header h1 {height: 80px;
+    line-height: 80px;
+
+}
+
+nav {
+    background-color: darkgrey;
+    text-align: left;
+    padding: 10px;
+
+}
+
+nav a {
+    color: white;
+    text-align: center;
+    padding: 10px 20xp;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: lightgrey;
+    color: black;
+
+}
+
+#featured { 
+    background-color: lightgrey;
+    text-align: center;
+    float: left;
+    width: 200px;
+
+}
+
+#content {
+    background-color: white;
+    text-align: center;
+    float: right;
+    width: 500px;
+
+}
+
+#extras {
+    background-color: lightgrey;
+    float: left;
+    width: 200px;
+
+}
+
+#extras p {
+    font-size: 50%;
+    text-align: center;
+    line-height: normal;
+
+}
+
+footer {
+    text-align: center;
+    background-color: darkgrey;
+    clear:both;
+}
+
+footer a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+#content {
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 500px;
+    border: 25px;
+
+}
+
+#content p {
+    text-align: left;
+    color: black;
+    padding: 15px;
+}
+
+#presentation {
+    text-align: center;
+    color: black;
+    width: 500px;
+    padding: 15px;
+    clear: both;
+
+}
+
+p {
+    margin: 0px 10px 10px;
+
+}
