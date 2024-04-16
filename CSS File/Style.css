@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: darkgrey;
+    background-color: darkslategrey;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -19,6 +19,7 @@ header h1 {
 
 nav {
     float: Left;
+    background-color: olive;
 }
 
 nav ul {
@@ -35,7 +36,7 @@ nav ul li a {
     display: block;
     padding: 10px 20px;
     text-decoration: none;
-    color: grey;
+    color: black;
 }
 
 nav ul li a:hover {
