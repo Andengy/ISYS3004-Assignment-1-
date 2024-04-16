@@ -42,7 +42,7 @@ nav a:hover {
     width: 200px;
 }
 
-#content {
+#Structure {
     background-color: white;
     text-align: center;
     float: right;
@@ -73,8 +73,7 @@ footer a {
     text-decoration: none;
 }
 
-#content {
-    /* Removed duplicate declaration */
+#Structure {
     text-align: center;
     color: black;
     background-color: white;
@@ -82,13 +81,13 @@ footer a {
     border: 25px solid black; /* Added border style and color */
 }
 
-#content p {
+#Structure p {
     text-align: left;
     color: black;
     padding: 15px;
 }
 
-#presentation {
+#Style {
     text-align: center;
     color: black;
     width: 500px;
