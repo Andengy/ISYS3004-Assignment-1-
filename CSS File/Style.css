@@ -1,5 +1,3 @@
-/* Retrieved from earlier lab work, as a base design */
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -18,8 +16,9 @@ header h1 {
 }
 
 nav {
-    float: Left;
+    float: left; 
     background-color: olive;
+    width: 150px;
 }
 
 nav ul {
@@ -45,9 +44,10 @@ nav ul li a:hover {
 
 section {
     background-color: white;
-    width: 500px;
+    width: calc(100% - 150px);
     margin: 10px auto;
     padding: 15px;
+    float: left;
 }
 
 section h2 {
