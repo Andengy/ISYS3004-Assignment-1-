@@ -21,7 +21,7 @@ nav {
     background-color: darkgrey;
     text-align: left;
     padding: 10px;
-    float: right; /* Float the navigation to the right */
+    float: right;
 }
 
 nav a {
