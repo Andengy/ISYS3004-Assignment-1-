@@ -13,16 +13,17 @@ header {
 
 header h1 {
     margin: 0;
+    
 }
 
 nav {
     position: fixed;
-    top: 60px; 
+    top: 125px; 
     left: 0;
     bottom: 0;
     background-color: olive;
     width: 150px;
-    padding-top: 50px;
+    padding-top: 0px;
     z-index: 1;
 }
 
@@ -35,13 +36,13 @@ nav ul {
 nav ul li {
     display: block;
     background-color: beige;
-    border: 1px solid black; 
+    border: 0.5px solid black; 
     padding: 15px;
 }
 
 nav ul li a {
     display: block;
-    padding: 10px 20px;
+    padding: 20px 20px;
     text-decoration: none;
     color: black;
 }
@@ -52,8 +53,8 @@ nav ul li a:hover {
 
 section {
     background-color: white;
-    width: calc(100% - 150px);
-    margin: 80px 0 0 150px;
+    width: calc(100% - 450px);
+    margin: 10px 0 0 145px; 
     padding: 15px;
     float: left;
 }
