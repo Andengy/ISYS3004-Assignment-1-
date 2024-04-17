@@ -5,14 +5,15 @@ body {
 }
 
 header {
-    background-color: beige; 
+    background-color: beige;
     color: black;
-    padding: 50px 75px;
-    border-radius: 5px; 
+    padding: 50px 75px 75px;
 }
+
 
 header h1 {
     margin: 0;
+    margin-left: 150px; 
 }
 
 header h1:nth-child(2) {
@@ -26,7 +27,7 @@ nav ul {
     text-align: right;
     position: absolute;
     top: 70px;
-    left: 1150px;
+    left: 1050px;
 }
 
 nav ul li {
