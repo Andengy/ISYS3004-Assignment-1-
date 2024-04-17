@@ -12,7 +12,8 @@ header {
 }
 
 header h1 {
-    margin: 0;
+    margin-left: 150px;
+    padding: 0px;
 }
 
 header::after {
@@ -22,8 +23,6 @@ header::after {
     padding: 10px;
     border-radius: 5px;
 }
-
-
 
 nav ul {
     list-style-type: none;
@@ -52,22 +51,19 @@ nav ul li a {
 nav ul li a:hover {
     background-color: grey;
 }
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
 
 section p {
     background-color: lightgray; 
     padding: 20px; 
     width: 300px; 
     float: left; 
-    margin-right: 20px; 
+    margin-left: 225px; 
     clear: both; 
     display: block; 
+    margin-top: 15px;
 }
 
 section h2, section h3, section h4, section h5, section h6 {
     clear: both; 
+    margin-left: 225px
 }
