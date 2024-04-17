@@ -5,37 +5,44 @@ body {
 }
 
 header {
-    background-color: beige; /* Change header color to beige */
+    background-color: beige;
     color: black;
-    padding: 20px 0; /* Increase padding to extend header down */
-    text-align: center;
+    padding: 20px 20px; 
+    text-align: left; 
 }
+
 
 header h1 {
     margin: 0;
-}
-
-nav {
-    display: inline-block; /* Display nav inline with header content */
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: right; 
 }
 
 nav ul li {
     display: inline-block;
-    margin-right: 20px; /* Add space between nav links */
+    margin-left: 20px; 
 }
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: black; 
+    display: block; 
+    background-color: rgb(255, 213, 154); 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+}
+
+nav ul li a:hover {
+    background-color: grey; 
 }
 
 section {
     background-color: white;
     padding: 20px;
+    color: black;
 }
