@@ -58,7 +58,7 @@ section p {
     padding: 20px; 
     width: 300px; 
     float: left; 
-    margin-left: 480px; 
+    margin-left: 700px; 
     clear: both; 
     display: block; 
     margin-top: 150px; 
@@ -78,5 +78,13 @@ section h2, section h3, section h4, section h5, section h6 {
     width: 600px; 
     border: 5px solid #aac3cf; 
     border-radius: 10px; 
-    margin-left: 350px;
+    margin-left: 25px; 
+    margin-top: 50px; 
 }
+
+/* Style the footer */
+footer {
+    background-color: beige; 
+    padding: 20px; 
+}
+
