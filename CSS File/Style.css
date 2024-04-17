@@ -5,11 +5,10 @@ body {
 }
 
 header {
-    background-color: darkslategrey;
-    color: white;
-    padding: 10px 0;
+    background-color: beige; /* Change header color to beige */
+    color: black;
+    padding: 20px 0; /* Increase padding to extend header down */
     text-align: center;
-    border-bottom: 1px solid black;
 }
 
 header h1 {
@@ -17,15 +16,7 @@ header h1 {
 }
 
 nav {
-    position: fixed;
-    top: 125px; 
-    left: 0;
-    bottom: 0;
-    background-color: olive;
-    width: 225px;
-    padding-top: 0.6px;
-    z-index: 1;
-    border-right: 1px solid black; 
+    display: inline-block; /* Display nav inline with header content */
 }
 
 nav ul {
@@ -35,52 +26,16 @@ nav ul {
 }
 
 nav ul li {
-    display: block;
-    background-color: beige;
-    border-bottom: 1px solid black; 
-    padding: 15px;
+    display: inline-block;
+    margin-right: 20px; /* Add space between nav links */
 }
 
 nav ul li a {
-    display: block;
-    padding: 20px 20px;
     text-decoration: none;
     color: black;
-}
-
-nav ul li a:hover {
-    background-color: grey;
 }
 
 section {
     background-color: white;
-    width: calc(100% - 250px);
-    margin: 10px 0 0 250px; 
-    padding: 0.5px;
-    float: left;
-}
-
-section h2 {
-    color: black;
-}
-
-section p {
-    color: black;
-}
-
-footer {
-    background-color: darkgrey;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-    clear: both;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-}
-
-p {
-    margin: 0 10px 10px;
+    padding: 20px;
 }
