@@ -52,9 +52,22 @@ nav ul li a {
 nav ul li a:hover {
     background-color: grey;
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-section {
-    background-color: white;
-    padding: 20px;
-    color: black;
+section p {
+    background-color: lightgray; 
+    padding: 20px; 
+    width: 300px; 
+    float: left; 
+    margin-right: 20px; 
+    clear: both; 
+    display: block; 
+}
+
+section h2, section h3, section h4, section h5, section h6 {
+    clear: both; 
 }
