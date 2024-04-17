@@ -5,20 +5,25 @@ body {
 }
 
 header {
-    background-color: beige;
+    background-color: #d0c27a;
     color: black;
     padding: 50px 75px 75px;
+    border-radius: 5px;
 }
-
 
 header h1 {
     margin: 0;
-    margin-left: 150px; 
 }
 
-header h1:nth-child(2) {
+header::after {
+    content: "";
     display: block;
+    background-color: beige;
+    padding: 10px;
+    border-radius: 5px;
 }
+
+
 
 nav ul {
     list-style-type: none;
