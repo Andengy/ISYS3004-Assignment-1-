@@ -57,12 +57,12 @@ nav ul li a:hover {
 section p {
     background-color: rgba(211, 211, 211, 0.8); 
     padding: 20px;
-    width: 40%; 
+    width: 300px; 
     float: left;
     margin-left: 10%; 
     clear: both;
     display: block;
-    margin-top: 15%; 
+    margin-top: 150px; 
     border-radius: 10px; 
 }
 
@@ -73,11 +73,11 @@ section h5,
 section h6 {
     background-color: rgba(211, 211, 211, 0.8); 
     padding: 20px;
-    width: 40%; 
+    width: 130px; 
     float: left;
     display: block;
     clear: both;
-    margin-left: 10%; 
+    margin-left: 140px; 
 }
 
 
