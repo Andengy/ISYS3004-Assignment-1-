@@ -67,45 +67,46 @@ section p {
 }
 
 section h2 {
-        background-color: rgba(211, 211, 211, 0.8); 
-    padding: 20px;
+    background-color: rgba(211, 211, 211); 
+    padding: 20px 100px;
     width: 130px; 
     float: left;
     display: block;
     clear: both;
-    margin-left: 140px; 
+    margin-left: 250px;
+    border-radius: 10px;
 }
 
-section h3 {
-    background-color: rgba(211, 211, 211, 0.8); 
-    padding: 200px;
-    width: 130px; 
-    float: left;
-    display: block;
-    clear: both;
-    margin-left: 140px; 
-}
-
-
-section h4{
-    background-color: rgba(211, 211, 211, 0.8); 
-    padding: 150px;
-    width: 130px; 
-    float: right;
-    display: block;
-    clear: both;
-    margin-left: 140px; 
-}
-
+section h3,
+section h4,
 section h5 {
     background-color: rgba(211, 211, 211, 0.8); 
-    padding: 100px;
+    padding: 300px 200px; /* Adjust padding as needed */
     width: 130px; 
-    float: left;
-    display: block;
-    clear: both;
-    margin-left: 140px; 
+    float: left; /* Make them all inline */
+    margin-top: 150px; /* Increase the margin-top */
+    margin-right: 50px; /* Add gap of 50px between each box */
+    border-radius: 10px; /* Add round edges */
 }
+
+/* Adjust the margin-left of h3 */
+section h3 {
+    margin-left: -400px; /* Move h3 150px to the left */
+}
+
+/* Adjust the margin-left of h5 to position it to the right */
+section h5 {
+    margin-left: auto; /* Reset margin-left */
+    margin-right: 0; /* Reset margin-right */
+}
+
+
+
+
+
+
+
+
 section h6 {
     background-color: rgba(211, 211, 211, 0.8); 
     padding: 250px;
