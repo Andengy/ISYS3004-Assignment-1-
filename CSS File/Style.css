@@ -92,8 +92,27 @@ section h6 {
     top: 0;
     left: 0;
     width: 100%; 
-    height: auto; 
+    height: 100%; 
+    object-fit: cover; 
     z-index: -1;
+}
+
+.about-box {
+    background-image: url('https://raw.githubusercontent.com/Andengy/Images/main/1000006798.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.projects-box {
+    background-image: url('https://raw.githubusercontent.com/Andengy/Images/main/PHOTO-2024-04-17-22-34-16.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-box {
+    background-image: url('https://raw.githubusercontent.com/Andengy/Images/main/1000006799.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 
