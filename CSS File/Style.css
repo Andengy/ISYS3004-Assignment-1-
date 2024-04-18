@@ -98,9 +98,11 @@ section h2 {
     z-index: -1;
 }
 
+
+
 /* With the Help of Chatgpt i was about to resize, adjust, and shape the box to my liking */
 .about-box {
-    background-image: url('https://raw.githubusercontent.com/Andengy/Images/main/1000006798.jpg');
+    background-image: url('https://raw.githubusercontent.com/Andengy/Images/main/1000007207.jpg');
     background-size: cover; 
     background-position: center; 
     padding: 300px 200px; 
@@ -137,7 +139,7 @@ section h2 {
 }
 
 .contact-box {
-    background-image: url('https://raw.githubusercontent.com/Andengy/Images/main/1000006799.jpg');
+    background-image: url('https://raw.githubusercontent.com/Andengy/Images/main/1000006802.jpg');
      background-size: cover; 
     background-position: center; 
     padding: 300px 200px; 
@@ -155,6 +157,20 @@ section h2 {
 .contact-box {
     margin-left: auto; 
     margin-right: 0; 
+}
+
+/* Asked chatgpt for effect to assist with hovering over icon */
+nav ul li a:hover {
+    border: 5px solid rgb(252 252 252); 
+    transition: border 0.1s cubic-bezier(0.25, 0.1, 0.26, 1.42); 
+    cursor: pointer; 
+}
+.about-box:hover,
+.projects-box:hover,
+.contact-box:hover {
+    border: 30px solid rgb(252 252 252); 
+    transition: border 0.3s ease; 
+    cursor: pointer; 
 }
 
 
