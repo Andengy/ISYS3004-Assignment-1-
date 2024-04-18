@@ -66,13 +66,49 @@ section p {
     border-radius: 10px; 
 }
 
-section h2,
-section h3,
-section h4,
-section h5,
+section h2 {
+        background-color: rgba(211, 211, 211, 0.8); 
+    padding: 20px;
+    width: 130px; 
+    float: left;
+    display: block;
+    clear: both;
+    margin-left: 140px; 
+}
+
+section h3 {
+    background-color: rgba(211, 211, 211, 0.8); 
+    padding: 200px;
+    width: 130px; 
+    float: left;
+    display: block;
+    clear: both;
+    margin-left: 140px; 
+}
+
+
+section h4{
+    background-color: rgba(211, 211, 211, 0.8); 
+    padding: 150px;
+    width: 130px; 
+    float: right;
+    display: block;
+    clear: both;
+    margin-left: 140px; 
+}
+
+section h5 {
+    background-color: rgba(211, 211, 211, 0.8); 
+    padding: 100px;
+    width: 130px; 
+    float: left;
+    display: block;
+    clear: both;
+    margin-left: 140px; 
+}
 section h6 {
     background-color: rgba(211, 211, 211, 0.8); 
-    padding: 20px;
+    padding: 250px;
     width: 130px; 
     float: left;
     display: block;
